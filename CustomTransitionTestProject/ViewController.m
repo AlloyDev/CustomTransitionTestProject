@@ -25,5 +25,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)close:(id)sender {
+  if ([self navigationController]) {
+    [[self navigationController] popViewControllerAnimated:YES];
+  } else {
+    [self dismissViewControllerAnimated:YES completion:nil];
+  }
+}
 
 @end
