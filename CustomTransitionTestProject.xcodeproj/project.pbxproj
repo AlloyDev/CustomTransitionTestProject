@@ -14,13 +14,17 @@
 		CB53FD3618B1236900FAE71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD3518B1236900FAE71D /* main.m */; };
 		CB53FD3A18B1236900FAE71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD3918B1236900FAE71D /* AppDelegate.m */; };
 		CB53FD3D18B1236900FAE71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB53FD3B18B1236900FAE71D /* Main.storyboard */; };
-		CB53FD4018B1236900FAE71D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD3F18B1236900FAE71D /* ViewController.m */; };
 		CB53FD4218B1236900FAE71D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB53FD4118B1236900FAE71D /* Images.xcassets */; };
 		CB53FD4918B1236900FAE71D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB53FD4818B1236900FAE71D /* XCTest.framework */; };
 		CB53FD4A18B1236900FAE71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB53FD2918B1236900FAE71D /* Foundation.framework */; };
 		CB53FD4B18B1236900FAE71D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB53FD2D18B1236900FAE71D /* UIKit.framework */; };
 		CB53FD5318B1236900FAE71D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB53FD5118B1236900FAE71D /* InfoPlist.strings */; };
 		CB53FD5518B1236900FAE71D /* CustomTransitionTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD5418B1236900FAE71D /* CustomTransitionTestProjectTests.m */; };
+		CB53FD6218B130D700FAE71D /* CustomPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD6118B130D700FAE71D /* CustomPresentAnimation.m */; };
+		CB53FD6818B1375900FAE71D /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD6718B1375900FAE71D /* MainTabBarViewController.m */; };
+		CB53FD6E18B13A4200FAE71D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD6D18B13A4200FAE71D /* SecondViewController.m */; };
+		CB53FD7118B13A7C00FAE71D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD7018B13A7C00FAE71D /* FirstViewController.m */; };
+		CB53FD7418B28C4F00FAE71D /* FlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		CB53FD3818B1236900FAE71D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB53FD3918B1236900FAE71D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB53FD3C18B1236900FAE71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB53FD3E18B1236900FAE71D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB53FD3F18B1236900FAE71D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB53FD4118B1236900FAE71D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB53FD4718B1236900FAE71D /* CustomTransitionTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB53FD4818B1236900FAE71D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB53FD5018B1236900FAE71D /* CustomTransitionTestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTransitionTestProjectTests-Info.plist"; sourceTree = "<group>"; };
 		CB53FD5218B1236900FAE71D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB53FD5418B1236900FAE71D /* CustomTransitionTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionTestProjectTests.m; sourceTree = "<group>"; };
+		CB53FD6018B130D700FAE71D /* CustomPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentAnimation.h; sourceTree = "<group>"; };
+		CB53FD6118B130D700FAE71D /* CustomPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentAnimation.m; sourceTree = "<group>"; };
+		CB53FD6618B1375900FAE71D /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		CB53FD6718B1375900FAE71D /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		CB53FD6C18B13A4200FAE71D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB53FD6D18B13A4200FAE71D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CB53FD6F18B13A7C00FAE71D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB53FD7018B13A7C00FAE71D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB53FD7218B28C4F00FAE71D /* FlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationController.h; sourceTree = "<group>"; };
+		CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +127,14 @@
 				CB53FD3818B1236900FAE71D /* AppDelegate.h */,
 				CB53FD3918B1236900FAE71D /* AppDelegate.m */,
 				CB53FD3B18B1236900FAE71D /* Main.storyboard */,
-				CB53FD3E18B1236900FAE71D /* ViewController.h */,
-				CB53FD3F18B1236900FAE71D /* ViewController.m */,
+				CB53FD6F18B13A7C00FAE71D /* FirstViewController.h */,
+				CB53FD7018B13A7C00FAE71D /* FirstViewController.m */,
+				CB53FD6C18B13A4200FAE71D /* SecondViewController.h */,
+				CB53FD6D18B13A4200FAE71D /* SecondViewController.m */,
+				CB53FD6618B1375900FAE71D /* MainTabBarViewController.h */,
+				CB53FD6718B1375900FAE71D /* MainTabBarViewController.m */,
 				CB53FD4118B1236900FAE71D /* Images.xcassets */,
+				CB53FD5F18B1307300FAE71D /* AnimationController */,
 				CB53FD3018B1236900FAE71D /* Supporting Files */,
 			);
 			path = CustomTransitionTestProject;
@@ -150,6 +167,17 @@
 				CB53FD5118B1236900FAE71D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB53FD5F18B1307300FAE71D /* AnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				CB53FD6018B130D700FAE71D /* CustomPresentAnimation.h */,
+				CB53FD6118B130D700FAE71D /* CustomPresentAnimation.m */,
+				CB53FD7218B28C4F00FAE71D /* FlipAnimationController.h */,
+				CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */,
+			);
+			name = AnimationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB53FD4018B1236900FAE71D /* ViewController.m in Sources */,
 				CB53FD3A18B1236900FAE71D /* AppDelegate.m in Sources */,
+				CB53FD7418B28C4F00FAE71D /* FlipAnimationController.m in Sources */,
+				CB53FD7118B13A7C00FAE71D /* FirstViewController.m in Sources */,
+				CB53FD6E18B13A4200FAE71D /* SecondViewController.m in Sources */,
+				CB53FD6818B1375900FAE71D /* MainTabBarViewController.m in Sources */,
 				CB53FD3618B1236900FAE71D /* main.m in Sources */,
+				CB53FD6218B130D700FAE71D /* CustomPresentAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

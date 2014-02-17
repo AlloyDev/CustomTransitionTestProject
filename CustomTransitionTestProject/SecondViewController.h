@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  CustomTransitionTestProject
 //
 //  Created by Tsyganov Stanislav on 16.02.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondViewController : UIViewController
 
 @end
