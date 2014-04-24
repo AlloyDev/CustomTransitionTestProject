@@ -25,6 +25,7 @@
 		CB53FD6E18B13A4200FAE71D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD6D18B13A4200FAE71D /* SecondViewController.m */; };
 		CB53FD7118B13A7C00FAE71D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD7018B13A7C00FAE71D /* FirstViewController.m */; };
 		CB53FD7418B28C4F00FAE71D /* FlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */; };
+		CBC4E13A1908618F00CC1E9B /* SwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4E1391908618F00CC1E9B /* SwipeInteractionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		CB53FD7018B13A7C00FAE71D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		CB53FD7218B28C4F00FAE71D /* FlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationController.h; sourceTree = "<group>"; };
 		CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationController.m; sourceTree = "<group>"; };
+		CBC4E1381908618F00CC1E9B /* SwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeInteractionController.h; sourceTree = "<group>"; };
+		CBC4E1391908618F00CC1E9B /* SwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteractionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 				CB53FD6718B1375900FAE71D /* MainTabBarViewController.m */,
 				CB53FD4118B1236900FAE71D /* Images.xcassets */,
 				CB53FD5F18B1307300FAE71D /* AnimationController */,
+				CBC4E13719085E7600CC1E9B /* TransitionControllers */,
 				CB53FD3018B1236900FAE71D /* Supporting Files */,
 			);
 			path = CustomTransitionTestProject;
@@ -178,6 +182,15 @@
 				CB53FD7318B28C4F00FAE71D /* FlipAnimationController.m */,
 			);
 			name = AnimationController;
+			sourceTree = "<group>";
+		};
+		CBC4E13719085E7600CC1E9B /* TransitionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4E1381908618F00CC1E9B /* SwipeInteractionController.h */,
+				CBC4E1391908618F00CC1E9B /* SwipeInteractionController.m */,
+			);
+			name = TransitionControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +293,7 @@
 				CB53FD3A18B1236900FAE71D /* AppDelegate.m in Sources */,
 				CB53FD7418B28C4F00FAE71D /* FlipAnimationController.m in Sources */,
 				CB53FD7118B13A7C00FAE71D /* FirstViewController.m in Sources */,
+				CBC4E13A1908618F00CC1E9B /* SwipeInteractionController.m in Sources */,
 				CB53FD6E18B13A4200FAE71D /* SecondViewController.m in Sources */,
 				CB53FD6818B1375900FAE71D /* MainTabBarViewController.m in Sources */,
 				CB53FD3618B1236900FAE71D /* main.m in Sources */,
@@ -492,6 +506,7 @@
 				CB53FD5A18B1236900FAE71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB53FD5B18B1236900FAE71D /* Build configuration list for PBXNativeTarget "CustomTransitionTestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				CB53FD5D18B1236900FAE71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

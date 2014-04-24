@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "CustomPresentAnimation.h"
 #import "FlipAnimationController.h"
+#import "SwipeInteractionController.h"
 
 @interface FirstViewController ()
 
@@ -17,6 +18,7 @@
 @implementation FirstViewController {
   CustomPresentAnimation *_customPresentAnimation;
   FlipAnimationController *_flipAnimationController;
+  SwipeInteractionController *_swipeInteractionController;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -26,6 +28,8 @@
     // Custom initialization
     _customPresentAnimation = [CustomPresentAnimation new];
     _flipAnimationController = [FlipAnimationController new];
+    _swipeInteractionController = [SwipeInteractionController new];
+//    [_swipeInteractionController wireToViewController:self.tabBarController.selectedViewController];
   }
   return self;
 }
@@ -36,6 +40,10 @@
 	// Do any additional setup after loading the view.
   self.navigationController.delegate = self;
   self.tabBarController.delegate = self;
+//  [_swipeInteractionController wireToViewController:[self.tabBarController.viewControllers objectAtIndex:1]];
+  for (UIViewController* vc in self.tabBarController.viewControllers) {
+      [_swipeInteractionController wireToViewController:vc];
+  }
 }
 
 - (void)didReceiveMemoryWarning
@@ -80,8 +88,20 @@
   }else{
     _flipAnimationController.reverse = NO;
   }
+  [_swipeInteractionController wireToViewController:toVC];
   
   return _flipAnimationController;
+}
+
+- (id<UIViewControllerInteractiveTransitioning>)tabBarController:(UITabBarController *)tabBarController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController{
+  if (!_swipeInteractionController) {
+    _swipeInteractionController = [SwipeInteractionController new];
+  }
+  return _swipeInteractionController.interactionInProgress ? _swipeInteractionController : nil;
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+
 }
 
 @end
